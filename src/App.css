@@ -1,0 +1,221 @@
+/* src/App.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f5;
+    color: #333;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-weight: 500;
+}
+
+.login-container {
+    max-width: 320px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 25px;
+}
+
+.login-container form div {
+    margin-bottom: 15px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+}
+
+.login-container input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #2980b9;
+}
+
+.login-container .error {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+
+
+/* Admin Home CSS */
+
+.admin-home {
+    text-align: center;
+}
+
+.admin-home header {
+    background-color: #ecf0f1;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.admin-home nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.admin-home nav a:hover {
+    color: #3498db;
+}
+
+.admin-home nav button {
+    padding: 7px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-home nav button:hover {
+    background-color: #c0392b;
+}
+
+.welcome-emoji {
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+
+/* Table and Forms */
+
+table {
+    width: 85%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f6f8;
+}
+
+label {
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 230px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+button {
+    margin: 8px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+/* Admin Container and Product Table */
+
+.admin-container {
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.product-table img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-img {
+    max-width: 70px;
+    height: auto;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
